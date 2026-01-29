@@ -28,7 +28,7 @@ function App() {
   return (
     <>
       {/* <Header /> */}
-      <div className='mt-10 mb-20'>
+      <div className='mb-20'>
       <Hero />
       </div>
       <h1 className="text-3xl font-bold px-5 mt-30 mb-10">Lo que puedes <strong className="text-blue-400">lograr</strong> tan solo en <strong className="text-blue-400">90 dias</strong></h1>
