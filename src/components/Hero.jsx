@@ -15,7 +15,7 @@ function Hero() {
 
     return (
         <div className="hero min-h-screen">
-            <div className="hero-content flex-col gap-15 lg:flex-row-reverse lg:gap-24">
+            <div className="hero-content flex-col gap-10 lg:flex-row-reverse lg:gap-24">
                 
                 {/* LADO DE LA IMAGEN Y NOMBRE */}
                 <motion.div 
@@ -49,7 +49,7 @@ function Hero() {
                 </motion.div>
 
                 {/* LADO DEL TEXTO Y CTA */}
-                <div className="flex-col md:text-left">
+                <div className="flex-col md:text-left md:flex-col-reverse">
                     <motion.h1 
                         initial="hidden"
                         animate="visible"

@@ -48,6 +48,9 @@ strong{
 /* } */ */
 
 body {
+  overflow-x: hidden;
+  inline-size: 100%;
+  position: relative;
   margin: 0;
   display: flex;
   place-items: center;
