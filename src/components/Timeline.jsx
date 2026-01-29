@@ -41,7 +41,7 @@ function Timeline() {
             </svg>
           </div>
           
-          <div className="timeline-end timeline-box text-lg shadow-md w-full ml-2">
+          <div className="timeline-end timeline-box text-lg shadow-md w-full ml-2 bg-white">
             {texto}
           </div>
 

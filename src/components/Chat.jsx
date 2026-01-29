@@ -21,7 +21,7 @@ function Chat() {
         <div className="chat-header">
           Juan <time className="text-xs opacity-50">12:45</time>
         </div>
-        <div className="chat-bubble">Estoy dispuesto a cambiar!</div>
+        <div className="chat-bubble">¡Estoy dispuesto a cambiar!</div>
         <div className="chat-footer opacity-50">Enviado</div>
       </div>
 
@@ -64,7 +64,7 @@ function Chat() {
           </div>
         </div>
         {/* Puedes omitir el Header aquí si es el mismo minuto */}
-        <div className="chat-bubble chat-bubble-primary">¿Empezamos hoy mismo?</div>        <div className="chat-footer opacity-50">Visto 12:46</div>
+        <div className="chat-bubble chat-bubble-primary font-bold">¿Empezamos <span className="text-black">hoy?</span></div>        <div className="chat-footer opacity-50">Visto 12:46</div>
       </div>
 
     </div>
